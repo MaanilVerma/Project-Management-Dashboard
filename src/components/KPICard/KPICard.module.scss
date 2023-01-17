@@ -1,0 +1,26 @@
+.kpi-container {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgb(20 20 43 / 8%);
+  border-radius: 10px;
+  width: 10rem;
+  height: 10rem;
+  padding: 15px;
+}
+
+.metrics-container {
+  text-align: center;
+}
+
+.metrics-number {
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.metrics-subtext {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
