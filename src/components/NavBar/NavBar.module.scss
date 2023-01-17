@@ -1,0 +1,52 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #212a53;
+}
+
+.header-logo {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.header-logo:hover {
+  color: #00dccd;
+  border-bottom: 1px solid #00dccd;
+}
+
+.menu-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.menu-item:hover {
+  color: #00dccd;
+  border-bottom: 1px solid #00dccd;
+}
+
+.user-details {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.username {
+  font-size: 12px;
+}
+
+.user-profile-image {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
