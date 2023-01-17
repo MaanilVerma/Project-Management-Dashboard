@@ -1,6 +1,6 @@
 import React from "react";
 
-const BellIcon = () => {
+const BellIcon = () => (
   <svg
     width="16"
     height="16"
@@ -32,7 +32,7 @@ const BellIcon = () => {
         />
       </clipPath>
     </defs>
-  </svg>;
-};
+  </svg>
+);
 
 export { BellIcon };

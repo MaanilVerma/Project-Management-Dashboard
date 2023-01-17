@@ -1,6 +1,6 @@
 import React from "react";
 
-const CheckCircleIcon = () => {
+const CheckCircleIcon = () => (
   <svg
     width="16"
     height="16"
@@ -33,7 +33,7 @@ const CheckCircleIcon = () => {
         />
       </clipPath>
     </defs>
-  </svg>;
-};
+  </svg>
+);
 
 export { CheckCircleIcon };

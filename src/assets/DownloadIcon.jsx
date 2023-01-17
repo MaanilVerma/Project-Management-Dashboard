@@ -1,6 +1,6 @@
 import React from "react";
 
-const DownloadIcon = () => {
+const DownloadIcon = () => (
   <svg
     width="24"
     height="24"
@@ -16,7 +16,7 @@ const DownloadIcon = () => {
       d="M20 19C20.5523 19 21 19.4477 21 20V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V20C3 19.4477 3.44772 19 4 19H20Z"
       fill="black"
     />
-  </svg>;
-};
+  </svg>
+);
 
 export { DownloadIcon };

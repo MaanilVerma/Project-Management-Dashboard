@@ -1,6 +1,6 @@
 import React from "react";
 
-const WarningIcon = () => {
+const WarningIcon = () => (
   <svg
     width="24"
     height="24"
@@ -21,7 +21,7 @@ const WarningIcon = () => {
         <rect width="24" height="24" fill="white" />
       </clipPath>
     </defs>
-  </svg>;
-};
+  </svg>
+);
 
 export { WarningIcon };

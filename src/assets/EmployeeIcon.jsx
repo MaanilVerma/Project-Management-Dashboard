@@ -1,6 +1,6 @@
 import React from "react";
 
-const EmployeeIcon = () => {
+const EmployeeIcon = () => (
   <svg
     width="24"
     height="24"
@@ -24,7 +24,7 @@ const EmployeeIcon = () => {
       d="M16 18V23H23C23.5522 23 24 22.5523 24 22V18C24 15.7909 22.2091 14 20 14H14.4722C15.4222 15.0615 16 16.4633 16 18Z"
       fill="black"
     />
-  </svg>;
-};
+  </svg>
+);
 
 export { EmployeeIcon };

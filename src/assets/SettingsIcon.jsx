@@ -1,6 +1,6 @@
 import React from "react";
 
-const SettingsIcon = () => {
+const SettingsIcon = () => (
   <svg
     width="24"
     height="24"
@@ -32,7 +32,7 @@ const SettingsIcon = () => {
       d="M2 12.5C2 13.0523 2.44772 13.5 3 13.5H6.5V15C6.5 15.5523 6.94772 16 7.5 16H8.5C9.05228 16 9.5 15.5523 9.5 15V9C9.5 8.44771 9.05228 8 8.5 8H7.5C6.94772 8 6.5 8.44771 6.5 9V10.5H3C2.44772 10.5 2 10.9477 2 11.5V12.5Z"
       fill="black"
     />
-  </svg>;
-};
+  </svg>
+);
 
 export { SettingsIcon };
