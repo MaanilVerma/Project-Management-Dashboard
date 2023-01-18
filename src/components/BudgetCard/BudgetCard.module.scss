@@ -1,0 +1,56 @@
+.budget-card-container {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgb(20 20 43 / 8%);
+  width: 20rem;
+  padding: 15px;
+  border-radius: 5px;
+  gap: 15px;
+}
+
+.budget-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.budget-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.budget-subtext,
+.datapoint-title {
+  color: #bebebe;
+  font-size: 14px;
+}
+
+.budget-amount {
+  margin-left: 15%;
+  color: black;
+}
+
+.profitability-amount {
+  margin-left: 4.5%;
+  color: black;
+}
+.profile-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.hours-count-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.budget-progressbar {
+  height: 20px;
+  background: #00dccd;
+  border-radius: 10px;
+}
