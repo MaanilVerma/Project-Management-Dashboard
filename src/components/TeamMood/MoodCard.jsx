@@ -10,9 +10,12 @@ const MoodCard = ({ employeeName, employeeDesignation }) => {
           src="src/assets/profile-image.svg"
           alt="Employee Image"
         />
-        <p className={styles["employee-credentials"]}>
-          {employeeName} <br /> {employeeDesignation}
-        </p>
+        <div className={styles["employee-credentials-container"]}>
+          <div className={styles["employee-credentials"]}>{employeeName}</div>
+          <div className={styles["employee-designation"]}>
+            {employeeDesignation}
+          </div>
+        </div>
       </div>
       <input type="range" min="1" max="100" className={styles["mood-slider"]} />
     </div>
