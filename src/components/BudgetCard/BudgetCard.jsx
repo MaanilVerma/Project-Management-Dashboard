@@ -25,12 +25,12 @@ const BudgetCard = ({
       <div className={styles["budget-datapoints"]}>
         <div className={styles["datapoint-title"]}>
           Total Budget:{" "}
-          <span className={styles["budget-amount"]}>{totalBudget}</span>
+          <span className={styles["budget-amount"]}>{totalBudget}€</span>
         </div>
         <div className={styles["datapoint-title"]}>
           Profitability(100%):{" "}
           <span className={styles["profitability-amount"]}>
-            {profitability}
+            {profitability}€
           </span>
         </div>
       </div>
