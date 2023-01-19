@@ -1,0 +1,19 @@
+.graph-container {
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgb(20 20 43 / 8%);
+  padding: 15px;
+  border-radius: 10px;
+  color: black;
+  width: 40%;
+}
+
+.graph-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yaxis-title {
+  font-size: 14px;
+  color: #bebebe;
+}
