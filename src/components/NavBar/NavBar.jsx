@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../Button";
 import { BellIcon } from "../../assets/BellIcon";
+import profileImage from "../../assets/profile-image.svg";
 import styles from "./NavBar.module.scss";
 
 const NavBar = () => {
@@ -19,7 +20,7 @@ const NavBar = () => {
         <BellIcon />
         <img
           className={styles["user-profile-image"]}
-          src="/src/assets/profile-image.svg"
+          src={profileImage}
           alt="profile image"
         />
         <p className={styles["username"]}>Mario</p>

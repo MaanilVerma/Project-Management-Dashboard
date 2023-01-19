@@ -1,4 +1,5 @@
 import React from "react";
+import profileImage from "../../assets/profile-image.svg";
 import styles from "./TeamMood.module.scss";
 
 const MoodCard = ({ employeeName, employeeDesignation }) => {
@@ -7,7 +8,7 @@ const MoodCard = ({ employeeName, employeeDesignation }) => {
       <div className={styles["employee-details"]}>
         <img
           className={styles["employee-picture"]}
-          src="/src/assets/profile-image.svg"
+          src={profileImage}
           alt="Employee Image"
         />
         <div className={styles["employee-credentials-container"]}>

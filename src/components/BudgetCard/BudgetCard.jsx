@@ -1,4 +1,5 @@
 import React from "react";
+import profileImage from "../../assets/profile-image.svg";
 import styles from "./BudgetCard.module.scss";
 
 const BudgetCard = ({
@@ -18,7 +19,7 @@ const BudgetCard = ({
         </div>
         <img
           className={styles["profile-image"]}
-          src="/src/assets/profile-image.svg"
+          src={profileImage}
           alt="profile"
         />
       </div>
