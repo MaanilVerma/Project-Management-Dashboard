@@ -1,0 +1,23 @@
+.dashboard-container {
+  max-width: 90%;
+  margin: 2% auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.data-points-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.graph-wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.kpi-wrapper {
+  display: flex;
+  gap: 20px;
+}
