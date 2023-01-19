@@ -10,9 +10,7 @@ const DonughtGraphCard = () => {
   return (
     <div className={styles["graph-container"]}>
       <div className={styles["graph-header"]}>
-        <div className={styles["graph-title"]}>
-          Budget <bold>(HOVER on PIE)</bold>
-        </div>
+        <div className={styles["graph-title"]}>Budget (HOVER on PIE)</div>
         <ToggleButton />
       </div>
       <Doughnut options={donughtOptions} data={donughtData} />
