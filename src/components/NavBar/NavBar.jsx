@@ -19,7 +19,7 @@ const NavBar = () => {
         <BellIcon />
         <img
           className={styles["user-profile-image"]}
-          src="src/assets/profile-image.svg"
+          src="assets/profile-image.svg"
           alt="profile image"
         />
         <p className={styles["username"]}>Mario</p>

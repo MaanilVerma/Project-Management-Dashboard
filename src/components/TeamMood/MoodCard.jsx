@@ -7,7 +7,7 @@ const MoodCard = ({ employeeName, employeeDesignation }) => {
       <div className={styles["employee-details"]}>
         <img
           className={styles["employee-picture"]}
-          src="src/assets/profile-image.svg"
+          src="assets/profile-image.svg"
           alt="Employee Image"
         />
         <div className={styles["employee-credentials-container"]}>

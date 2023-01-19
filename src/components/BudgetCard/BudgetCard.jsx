@@ -18,7 +18,7 @@ const BudgetCard = ({
         </div>
         <img
           className={styles["profile-image"]}
-          src="/src/assets/profile-image.svg"
+          src="assets/profile-image.svg"
           alt="profile"
         />
       </div>
