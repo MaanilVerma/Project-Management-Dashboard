@@ -7,7 +7,7 @@ import styles from "./TeamMood.module.scss";
 const TeamMood = () => {
   return (
     <aside className={styles["team-mood-container"]}>
-      <p className={styles["teammood-title"]}>Team Mood</p>
+      <div className={styles["teammood-title"]}>Team Mood</div>
       {employeeDetails.map((value, index) => {
         return (
           <MoodCard
