@@ -1,0 +1,21 @@
+.toggle-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.toggle-button {
+  width: 50px;
+  height: 25px;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle-handle {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  position: absolute;
+  transition: left 0.2s ease-in-out;
+}
