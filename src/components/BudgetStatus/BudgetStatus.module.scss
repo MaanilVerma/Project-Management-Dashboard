@@ -1,0 +1,43 @@
+.budget-section {
+  max-width: 90%;
+  margin: 2% auto;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.status-header-container {
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.budget-button {
+  padding: 8px;
+  cursor: pointer;
+  border: 1.5px solid #007e75;
+  background: none;
+  border-radius: 5px;
+  color: #007e75;
+}
+
+.budget-button:hover {
+  background: #007e75;
+  color: white;
+}
+
+.budget-icons {
+  vertical-align: middle;
+}
+
+.budget-cards-wrapper {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
