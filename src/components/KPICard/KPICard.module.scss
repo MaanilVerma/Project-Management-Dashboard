@@ -7,6 +7,12 @@
   width: 10rem;
   height: 10rem;
   padding: 15px;
+  cursor: pointer;
+}
+
+.kpi-container:hover {
+  background-color: #fb7f8c;
+  transition: all 0.2s ease-in;
 }
 
 .metrics-container {
